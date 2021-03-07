@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.login {
+    position: absolute;
+    top: 13%;
+    left: 12%;
+    transform: translateX(-50%, -50%);
+}
+
+form {
+    background-color:limegreen;
+    padding: 40px;
+    border: solid blue 4px;
+    border-radius: 100px;
+}
+form:hover{
+    background: red;
+    transition: 1.5s;
+}
+
+input[type="email"] {
+    border: solid blue 3px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    color:red;
+    font-size: 30px;
+}
+
+input[type="password"] {
+    border: solid blue 3px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    color:red;
+    font-size: 30px;
+}
+input:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+
+label {
+    color: yellow;
+    font-size: 30px;
+    padding: 5px;
+}
+
+#btn{
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    color: blue;
+    background-color: yellow;
+    border: solid 3px;
+}
+#btn:hover{
+    background-color: aqua;
+    color: red;
+    transition: 1s;
+    border: solid blue 3px;
+}
+img {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    background-color: black;
+    padding-right: 1000px;
+}
+li{
+    color: lavenderblush;
+    padding:5px;
+    margin: 5px;
+}
+li:hover{
+    background-color: blue;
+    transition: 0.9s;
+}
+a{
+    font-size: 25px;
+    color: blue;
+}
+a:hover{
+    color: lawngreen;
+}
+
